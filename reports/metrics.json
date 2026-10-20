@@ -1,0 +1,82 @@
+{
+  "baseline": {
+    "test": {
+      "alert_budget": 0.01,
+      "alert_threshold": 0.9500747009231928,
+      "brier_score": 0.0362271051323474,
+      "positive_rate": 0.007083333333333333,
+      "pr_auc": 0.9039635537472908,
+      "precision_at_budget": 0.625,
+      "recall_at_budget": 0.8823529411764706,
+      "recall_ci_95": [
+        0.7668552036199094,
+        1.0
+      ],
+      "rows": 2400
+    },
+    "validation": {
+      "alert_budget": 0.01,
+      "alert_threshold": 0.979420626490959,
+      "brier_score": 0.03743768342189779,
+      "positive_rate": 0.010416666666666666,
+      "pr_auc": 0.8764104466343258,
+      "precision_at_budget": 0.7916666666666666,
+      "recall_at_budget": 0.76,
+      "recall_ci_95": [
+        0.6290740740740741,
+        0.942892156862745
+      ],
+      "rows": 2400
+    }
+  },
+  "challenger": {
+    "name": "calibrated_hist_gradient_boosting",
+    "test": {
+      "alert_budget": 0.01,
+      "alert_threshold": 0.04602024275822328,
+      "brier_score": 0.0003915837978621638,
+      "positive_rate": 0.007083333333333333,
+      "pr_auc": 0.9967320261437909,
+      "precision_at_budget": 0.7083333333333334,
+      "recall_at_budget": 1.0,
+      "recall_ci_95": [
+        0.9413194444444445,
+        1.0
+      ],
+      "rows": 2400
+    },
+    "validation": {
+      "alert_budget": 0.01,
+      "alert_threshold": 0.7244604390664603,
+      "brier_score": 0.00017325379168826998,
+      "positive_rate": 0.010416666666666666,
+      "pr_auc": 1.0,
+      "precision_at_budget": 1.0,
+      "recall_at_budget": 0.96,
+      "recall_ci_95": [
+        0.6857142857142857,
+        1.0
+      ],
+      "rows": 2400
+    }
+  },
+  "comparison": {
+    "challenger_wins": true,
+    "test_pr_auc_lift": 0.0927684723965001
+  },
+  "dataset": {
+    "positive_rate": 0.008666666666666666,
+    "rows": 12000,
+    "test_rows": 2400,
+    "train_rows": 7200,
+    "validation_rows": 2400
+  },
+  "generated_at": "2026-10-20T17:17:37.402455+00:00",
+  "latency": {
+    "p50_ms": 21.0442,
+    "p95_ms": 23.422250000000002,
+    "p99_ms": 25.966606,
+    "runs": 500
+  },
+  "seed": 42
+}

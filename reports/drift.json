@@ -1,0 +1,46 @@
+{
+  "amount_shift": {
+    "drift_detected": true,
+    "features": {
+      "amount": {
+        "drifted": true,
+        "psi": 1.6085616062183072
+      },
+      "amount_to_avg": {
+        "drifted": false,
+        "psi": 0.0030305330854219297
+      },
+      "is_international": {
+        "drifted": false,
+        "psi": 2.2109299848373105e-06
+      },
+      "is_new_device": {
+        "drifted": false,
+        "psi": 5.374983833553762e-06
+      }
+    },
+    "threshold": 0.2
+  },
+  "device_shift": {
+    "drift_detected": true,
+    "features": {
+      "amount": {
+        "drifted": false,
+        "psi": 0.02101079320451918
+      },
+      "amount_to_avg": {
+        "drifted": false,
+        "psi": 0.0052139837729657645
+      },
+      "is_international": {
+        "drifted": true,
+        "psi": 0.7752946836700403
+      },
+      "is_new_device": {
+        "drifted": true,
+        "psi": 1.4177801038158444
+      }
+    },
+    "threshold": 0.2
+  }
+}

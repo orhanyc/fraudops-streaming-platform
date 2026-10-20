@@ -1,0 +1,14 @@
+{
+  "environment": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD",
+    "python": "3.12.14"
+  },
+  "failures": 0,
+  "p50_ms": 49.76235,
+  "p95_ms": 55.940644999999996,
+  "p99_ms": 59.76079,
+  "requests": 250,
+  "throughput_requests_per_second": 19.249050350025872,
+  "transport": "FastAPI TestClient, sequential requests"
+}
