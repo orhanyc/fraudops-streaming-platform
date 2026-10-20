@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 - 2026-10-20
+
+- Fixed the container build so model artifacts are mounted at runtime rather than copied into the image.
+
 ## 0.1.0 - 2026-10-20
 
 - Added reproducible synthetic payment generation and chronological evaluation splits.
